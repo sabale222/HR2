@@ -9,7 +9,7 @@ resources:
         - 2
     properties:
       image: SundayTempWin
-      cpuCount: 1
+      cpuCount: 2
       totalMemoryMB: 1024
       attachedDisks:
         - source: '${resource.Cloud_vSphere_Disk_1.id}'
